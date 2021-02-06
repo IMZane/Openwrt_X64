@@ -20,6 +20,6 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome package/lean/luc
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 # 添加passwall插件包
-https://github.com/xiaorouji/openwrt-passwall/tree/main/luci-app-passwall package/lean/luci-app-passwall
+git clone https://github.com/xiaorouji/openwrt-passwall package/lean/luci-app-passwall
 ./scripts/feeds update -a
 ./scripts/feeds install -a
